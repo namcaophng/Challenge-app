@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_128"
+        android:text="@string/title_login"
+        android:textSize="@dimen/sp_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/dp_290"
+        android:layout_height="@dimen/dp_267"
+        android:layout_marginStart="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/image_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/editAccount"
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_68"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/hint_account"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_68"
+        android:layout_marginTop="@dimen/dp_20"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAccount"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_68"
+        android:layout_marginTop="@dimen/dp_28"
+        android:text="@string/title_sign_in"
+        android:background="@color/color_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_160"
+        android:layout_marginTop="@dimen/dp_32"
+        android:text="@string/title_sign_up"
+        android:background="@color/color_orange_peel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignIn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

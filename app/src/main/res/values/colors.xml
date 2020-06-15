@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="color_teal">#008577</color>
+    <color name="color_aqua_deep">#00574B</color>
+    <color name="color_amaranth">#D81B60</color>
+    <color name="color_green">#00BB00</color>
+    <color name="color_orange_peel">#FF9900</color>
+    <color name="color_pastel_green">#77D353</color>
+    <color name="color_carnation">#F95F62</color>
 </resources>

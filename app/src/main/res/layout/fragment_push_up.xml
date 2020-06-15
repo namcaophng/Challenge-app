@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pushUp.PushUpFragment">
+
+    <ImageView
+        android:id="@+id/imageExercisePoster"
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="@dimen/dp_245"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/image_push_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textTitlePushUpExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="@string/title_suggestion_push_up"
+        android:textSize="@dimen/sp_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageExercisePoster" />
+
+    <Button
+        android:id="@+id/buttonFinishPushUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_28"
+        android:background="@color/color_pastel_green"
+        android:text="@string/title_finish_exercise"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitlePushUpExercise" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

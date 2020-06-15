@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/dp_20"
+    android:layout_marginBottom="@dimen/dp_60"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/dp_20"
+    android:paddingEnd="@dimen/dp_20"
+    tools:context=".ui.edit.EditUserFragment">
+
+    <TextView
+        android:id="@+id/textNameEditScreen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/hint_name"
+        android:textSize="@dimen/sp_24"
+        android:gravity="bottom" />
+
+    <EditText
+        android:id="@+id/editCurrentName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/sp_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/title_height"
+        android:textSize="@dimen/sp_24"
+        android:gravity="bottom" />
+
+    <EditText
+        android:id="@+id/editCurrentHeight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_height"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="@dimen/sp_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/title_weight"
+        android:textSize="@dimen/sp_24"
+        android:gravity="bottom" />
+
+    <EditText
+        android:id="@+id/editCurrentWeight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_weight"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="@dimen/sp_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/hint_password"
+        android:textSize="@dimen/sp_24"
+        android:gravity="bottom" />
+
+    <EditText
+        android:id="@+id/editCurrentPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textSize="@dimen/sp_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/hint_confirm_password"
+        android:textSize="@dimen/sp_24"
+        android:gravity="bottom" />
+
+    <EditText
+        android:id="@+id/editCurrentConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_confirm_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textSize="@dimen/sp_24" />
+
+    <Button
+        android:id="@+id/buttonEditUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp_44"
+        android:layout_weight="1"
+        android:background="@color/color_pastel_green"
+        android:text="@string/title_edit"
+        android:textSize="@dimen/sp_24"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

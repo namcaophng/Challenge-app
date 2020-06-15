@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ExerciseActivity" >
+
+    <TextView
+        android:id="@+id/textExerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="@string/string_title_exercise"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/sp_32"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonHowToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:text="@string/title_how_to_do_exercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/color_orange_peel"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_exercise_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHowToDo"
+        android:layout_marginTop="@dimen/dp_68" />
+</androidx.constraintlayout.widget.ConstraintLayout>

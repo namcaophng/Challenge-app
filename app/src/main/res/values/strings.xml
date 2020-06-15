@@ -1,3 +1,106 @@
 <resources>
     <string name="app_name">14-day Challenge</string>
+    <string name="title_login">Sign in with your Account</string>
+    <string name="hint_password">Password</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="title_sign_up">Sign Up</string>
+    <string name="hint_account">Account</string>
+    <string name="error_login_empty">Account or Password shouldn\'t be empty!</string>
+    <string name="error_login_account">Wrong account!</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_birthday">dd/mm/yyyy</string>
+    <string name="hint_height">cm</string>
+    <string name="hint_weight">Kg</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="error_signup_empty">Some values is empty</string>
+    <string name="error_confirm_password">Confirm Password is wrong!</string>
+    <string name="error_existed_account">This account is EXISTED!</string>
+    <string name="title_birthday">Birthday</string>
+    <string name="title_height">Height</string>
+    <string name="title_weight">Weight</string>
+    <string name="title_home_screen">Do you know why we should do exercise ?</string>
+    <string name="title_continue_challenge">Continue Challenge</string>
+    <string name="title_my_process">My Process</string>
+    <string name="title_picture_exercise">Some popular exercises</string>
+    <string name="title_answer_home_screen">Exercise helps people lose weight and lower the risk of some diseases.
+        Exercising regularly lowers a person\'s risk of developing some diseases, including obesity, type 2 diabetes, and high blood pressure.
+        Exercise also can help keep your body at a healthy weight.
+        When you exercise you feel better, you look better, you get stronger, you feel a sense of accomplishment, and that rush of endorphins has a ripple effect on everything you do.
+        When you feel better, you feel empowered and more confident. Win-win!</string>
+    <string name="title_picture_u23">u23 Vietnam</string>
+    <string name="title_sign_out">Sign Out</string>
+    <string name="title_edit_information">Edit Information</string>
+    <string name="error_push_shared_pref">Your account or name is empty!</string>
+    <string name="title_edit">Edit</string>
+    <string name="error_edit_user">Some values is empty!</string>
+    <string name="error_edit_user_confirm_pass">Confirm password is wrong!</string>
+    <string name="title_your_name">Your Name</string>
+    <string name="title_height_and_weight">Height and Weight</string>
+    <string name="title_process">Process:</string>
+    <string name="title_number_of_day">number days</string>
+    <string name="title_tick">Completed</string>
+    <string name="title_process_screen">Great! Keep Fighting!!</string>
+    <string name="error_load_recyclerview">Something wrong!</string>
+    <string name="string_title_exercise">Type of Exercises</string>
+    <string name="string_title_description_exercise">Short description for exercise</string>
+    <string name="title_push_up_exercise">Push up</string>
+    <string name="title_short_guide_push_up">Get down on all fours, placing your hands slightly wider than your shoulders.</string>
+    <string name="title_plank_exercise">Plank</string>
+    <string name="title_short_guide_plank">Place forearms on the floor with elbows aligned below shoulders and arms …</string>
+    <string name="title_run_exercise">Run</string>
+    <string name="title_short_guide_run">Start each run with a gentle warm-up of at least 5 minutes. This can include quick walking, …</string>
+    <string name="title_how_to_do_exercise">How?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_suggestion_push_up">Today, you should get: </string>
+    <string name="title_finish_exercise">Finish</string>
+    <string name="title_completed_exercise">Congrats, you have completed exercise today</string>
+    <string name="title_start_plank">Start</string>
+    <string name="title_time_plank">Time</string>
+    <string name="title_finish_task">Task completed</string>
+    <string name="title_suggestion_run_exercise">Today, you should run: %1$d m</string>
+    <string name="title_actual_run_exercise">Actual:</string>
+    <string name="title_start_run_exercise">Start</string>
+    <string name="title_update_ui">Distance is %1$d M</string>
+    <string name="title_content_tutorial">Content of tutorial exercise</string>
+    <string name="title_type_tutorial">Exercise:</string>
+    <string name="title_button_ok">OK</string>
+    <string name="title_success_load_video">Success</string>
+    <string name="title_failure_load_video">Failure</string>
+    <string name="title_full_screen">Full Screen</string>
+    <string name="title_tutorial_plank">
+        1 Unless you want to turn your planking into an extreme sport, find a solid surface.
+        Lie on your front with your fists clasped, elbows pushed into your sides by your ribs, forearms on the floor and toes tucked under.
+
+        \n\n2 Push your body weight up so that it’s resting on your forearms and feet, in a straight line parallel to the floor.
+
+        \n\n3 Squeeze the muscles in your bottom and thighs and push your heels together
+        (this increases the muscle tension in your legs and bottom), while pulling up on your pelvic floor.
+
+        \n\n4 Check your back and bottom are not popping up or caving in(tuck your pelvis under to switch on your lower abs)
+        and that you are making a straight line from heels to head, so that your neck is parallel to the floor.
+
+        \n\n5 Relax your facial muscles. You could even try a smile (although only the floor should see that).
+    </string>
+    <string name="title_tutorial_run">
+        First, plan your schedule so that you\'re sure to set aside time to devote to your new running routine.
+        You can reap fitness rewards with just 30 minutes a day, three to five times per week.
+
+        \n\nWhen you start running, don\'t plan to go too far or too fast right away\—doing so is the number-one cause of injury among runners.
+        Start by running for 20 minutes at a time, three times per week.
+        Gradually increase the amount of time you\'re running and the number of days you run,
+        but don\'t increase either until you feel comfortable completing your current level of training.
+        If 20 minutes is too much, don\'t be afraid to take walking breaks.
+        Perhaps begin by running for 4 minutes and walking for 1 minute, until you complete the 20 minutes.
+        As you get stronger, begin eliminating the walk breaks.
+    </string>
+    <string name="title_tutorial_push_up">
+        1. Keep your arms straight, your butt clenched, your core tightened, and your elbows as even with the floor as you can.
+        \n2. Gradually lower yourself until each elbow is at a 90-degree angle or less.
+        \n3. Try to go all the way down until either your chest or nose or chin lightly touches the floor, inhaling along the way.
+        \n4. Once your chest or nose or chin is touching the floor, hold for a brief pause before thrusting yourself back into the starting position, exhaling as you go.
+        \n5. Prevent your elbows from flying outward during each rep and keep them somewhat close to your body.
+        \n6. Maintain a steady and consistent formation throughout each rep.
+        \n7. Perform as many reps as you can until you feel that you can no longer maintain the plank-like formation or prevent your elbows from pointing away from you.
+    </string>
 </resources>

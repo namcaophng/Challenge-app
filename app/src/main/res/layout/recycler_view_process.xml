@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_40"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/sp_24"
+        android:layout_weight="9"
+        android:textSize="@dimen/sp_24" />
+
+    <ImageView
+        android:id="@+id/imageTick"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ic_check_box_pastel_green"
+        android:contentDescription="@string/title_tick"
+        android:scaleType="fitCenter" />
+</LinearLayout>

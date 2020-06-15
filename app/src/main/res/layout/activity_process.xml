@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.process.ProcessActivity">
+
+    <ImageView
+        android:id="@+id/imageAvatarUser"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_16"
+        android:background="@drawable/ic_person_pastel_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="@string/title_your_name"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toEndOf="@+id/imageAvatarUser"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textHeightAndWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_8"
+        android:text="@string/title_height_and_weight"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toEndOf="@+id/imageAvatarUser"
+        app:layout_constraintTop_toBottomOf="@+id/textName" />
+
+    <TextView
+        android:id="@+id/textProcess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/title_process"
+        android:textColor="@color/color_pastel_green"
+        android:textSize="@dimen/sp_24"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeightAndWeight" />
+
+    <TextView
+        android:id="@+id/textNumberDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:text="@string/title_number_of_day"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeightAndWeight" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewProcess"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp_16"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProcess"
+        app:layout_constraintBottom_toTopOf="@+id/imageHappyFace"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="@dimen/dp_128"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_128"
+        android:layout_marginBottom="@dimen/dp_28"
+        android:text="@string/title_process_screen"
+        android:textColor="@color/color_orange_peel"
+        android:textSize="@dimen/sp_24"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageHappyFace"
+        android:layout_width="@dimen/dp_160"
+        android:layout_height="@dimen/dp_128"
+        android:background="@drawable/image_happy_face"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
